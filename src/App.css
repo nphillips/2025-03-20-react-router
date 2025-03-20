@@ -63,7 +63,7 @@
 }
 
 #navbar a span {
-  transition: var(--ease);
+  transition: transform var(--timing) var(--ease);
 }
 #navbar a:hover span {
   transform: scale(1.2);
